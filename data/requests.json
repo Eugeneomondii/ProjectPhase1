@@ -1,0 +1,4 @@
+[
+    { "id": 1, "customer": "John Doe", "service": "Heavy Truck", "status": "Pending" },
+    { "id": 2, "customer": "Jane Smith", "service": "Van", "status": "Pending" }
+]

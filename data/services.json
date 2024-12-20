@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Overnight Delivery",
+        "description": "Fast overnight package delivery."
+    },
+    {
+        "id": 2,
+        "name": "Freight Services",
+        "description": "Reliable and cost-effective freight shipping."
+    },
+    {
+        "id": 3,
+        "name": "Warehouse Storage",
+        "description": "Secure and spacious storage solutions."
+    }
+]

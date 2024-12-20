@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "type": "Truck",
+        "capacity": "10 Tons",
+        "availability": "Available"
+    },
+    {
+        "id": 2,
+        "type": "Van",
+        "capacity": "2 Tons",
+        "availability": "Unavailable"
+    },
+    {
+        "id": 3,
+        "type": "Motorbike",
+        "capacity": "50 kg",
+        "availability": "Available"
+    }
+]

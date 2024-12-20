@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLogistics - Search Providers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>QuickLogistics</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="customer.html">Search Providers</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Search Logistics Providers</h2>
+        <form id="searchForm">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location" required>
+            
+            <label for="capacity">Capacity (in tons):</label>
+            <input type="number" id="capacity" placeholder="Enter capacity" required>
+            
+            <button type="submit">Search</button>
+        </form>
+        <section>
+            <h3>Search Results</h3>
+            <table id="providersTable">
+                <thead>
+                    <tr>
+                        <th>Provider Name</th>
+                        <th>Location</th>
+                        <th>Capacity</th>
+                        <th>Contact</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Search results will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 QuickLogistics | All Rights Reserved</p>
+    </footer>
+    <script src="customer.js"></script>
+</body>
+</html>

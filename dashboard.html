@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - QuickLogistics</title>
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+    href="styles.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+        <img src="images/logo.avif" alt="Logo"
+        style="height: 50px;">
+        <nav class="mt-3">
+            <a href="index.html"
+            class="text-white px-3">Home</a>
+            <a href="Services.html"
+            class="text-white px-3">Services</a>
+            <a href="contact.html"
+            class="text-white px-3">Contact</a>
+            <a href="about.html"
+            class="text-white px-3">About us</a>
+            <a href="admin.html"
+            class="text-white px-3">Admin</a>
+            <a href="vehicles.html"
+            class="text-white px-3">Vehicles</a>
+        </nav>
+    </div>
+    </header>
+    <!--Dashboard section-->
+    <section class="py-5">
+        <div class="container">
+            <h1>Customer Dashboard</h1>
+            <p> Welcome to your dashboard. Below you can see your booking history, track shipments and manage your account.</p>
+            <!--Booking history table-->
+            <h2 class="mt-4">Booking History</h2>
+            <table class="table table-stripped mt-3">
+                <thead>
+                    <tr>
+                        <th>Booking ID</th>
+                        <th>Origin</th>
+                        <th>Destination</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody
+                id="booking-history">
+                <!--Booking rows will be dynamically added via Javascript-->
+            </tbody>
+            </table>
+            <!-- Tracking Section-->
+             <h2 class="mt-5">Track Your Shipment</h2>
+             <form  id="tracking-form" 
+             class="mt-3">
+            <div class="mb-3">
+                <label 
+                for="tracking-id"
+                class="form-label">Enter Tracking ID</label>
+                <input type="text"
+                id="tracking-id"
+                class="form-control"
+                placeholder="E.g., QL12345"
+                required>
+            </div>
+            <button type="submit"
+            class="btn btn-primary">Track</button>
+        </form>
+        <div id="tracking-result"
+        class="mt-3">
+    <!--Tracking results will appear here-->
+</div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center pr-3">
+        <p>&copy; 2024
+            QuickLogistics | All Rights Reserved
+        </p>
+    </footer>
+    <script src="js/QuickLogisticsMain.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

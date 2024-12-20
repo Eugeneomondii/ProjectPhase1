@@ -1,0 +1,4 @@
+[
+    { "id": 1, "origin": "Nairobi", "destination": "Mombasa", "status": "Scheduled" },
+    { "id": 2, "origin": "Kisumu", "destination": "Nakuru", "status": "Completed" }
+]
